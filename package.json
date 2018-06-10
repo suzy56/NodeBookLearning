@@ -1,0 +1,14 @@
+{
+  "name": "nodedemo",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "main.js",
+  "scripts": {
+    "test": "testNode"
+  },
+  "author": "suzy56",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

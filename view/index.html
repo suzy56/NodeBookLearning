@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+<script>
+    $.ajax({
+        'url': 'http://localhost:8080',
+        'method': 'POST',
+        'data': {'id': 2222,'name': 'xiaoming'},
+        'success': function (data) {
+           console.log('kkk')
+        }
+    });
+</script>
+<body>
+
+</body>
+</html>
